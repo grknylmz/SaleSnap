@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FB032BC1F3F8F1D00705010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB032BB1F3F8F1D00705010 /* AppDelegate.swift */; };
+		9FB032BE1F3F8F1D00705010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB032BD1F3F8F1D00705010 /* ViewController.swift */; };
+		9FB032C11F3F8F1D00705010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB032BF1F3F8F1D00705010 /* Main.storyboard */; };
+		9FB032C41F3F8F1D00705010 /* SellSnap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FB032C21F3F8F1D00705010 /* SellSnap.xcdatamodeld */; };
+		9FB032C61F3F8F1D00705010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB032C51F3F8F1D00705010 /* Assets.xcassets */; };
+		9FB032C91F3F8F1D00705010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB032C71F3F8F1D00705010 /* LaunchScreen.storyboard */; };
+		9FB032D41F3F8F1D00705010 /* SellSnapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB032D31F3F8F1D00705010 /* SellSnapTests.swift */; };
+		9FB032DF1F3F8F1D00705010 /* SellSnapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB032DE1F3F8F1D00705010 /* SellSnapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FB032D01F3F8F1D00705010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FB032B01F3F8F1D00705010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FB032B71F3F8F1D00705010;
+			remoteInfo = SellSnap;
+		};
+		9FB032DB1F3F8F1D00705010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FB032B01F3F8F1D00705010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FB032B71F3F8F1D00705010;
+			remoteInfo = SellSnap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FB032B81F3F8F1D00705010 /* SellSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SellSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB032BB1F3F8F1D00705010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FB032BD1F3F8F1D00705010 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FB032C01F3F8F1D00705010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FB032C31F3F8F1D00705010 /* SellSnap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SellSnap.xcdatamodel; sourceTree = "<group>"; };
+		9FB032C51F3F8F1D00705010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FB032C81F3F8F1D00705010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FB032CA1F3F8F1D00705010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FB032CF1F3F8F1D00705010 /* SellSnapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SellSnapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB032D31F3F8F1D00705010 /* SellSnapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellSnapTests.swift; sourceTree = "<group>"; };
+		9FB032D51F3F8F1D00705010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FB032DA1F3F8F1D00705010 /* SellSnapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SellSnapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB032DE1F3F8F1D00705010 /* SellSnapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellSnapUITests.swift; sourceTree = "<group>"; };
+		9FB032E01F3F8F1D00705010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FB032B51F3F8F1D00705010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB032CC1F3F8F1D00705010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB032D71F3F8F1D00705010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FB032AF1F3F8F1D00705010 = {
+			isa = PBXGroup;
+			children = (
+				9FB032BA1F3F8F1D00705010 /* SellSnap */,
+				9FB032D21F3F8F1D00705010 /* SellSnapTests */,
+				9FB032DD1F3F8F1D00705010 /* SellSnapUITests */,
+				9FB032B91F3F8F1D00705010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FB032B91F3F8F1D00705010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FB032B81F3F8F1D00705010 /* SellSnap.app */,
+				9FB032CF1F3F8F1D00705010 /* SellSnapTests.xctest */,
+				9FB032DA1F3F8F1D00705010 /* SellSnapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FB032BA1F3F8F1D00705010 /* SellSnap */ = {
+			isa = PBXGroup;
+			children = (
+				9FB032BB1F3F8F1D00705010 /* AppDelegate.swift */,
+				9FB032BD1F3F8F1D00705010 /* ViewController.swift */,
+				9FB032BF1F3F8F1D00705010 /* Main.storyboard */,
+				9FB032C51F3F8F1D00705010 /* Assets.xcassets */,
+				9FB032C71F3F8F1D00705010 /* LaunchScreen.storyboard */,
+				9FB032CA1F3F8F1D00705010 /* Info.plist */,
+				9FB032C21F3F8F1D00705010 /* SellSnap.xcdatamodeld */,
+			);
+			path = SellSnap;
+			sourceTree = "<group>";
+		};
+		9FB032D21F3F8F1D00705010 /* SellSnapTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FB032D31F3F8F1D00705010 /* SellSnapTests.swift */,
+				9FB032D51F3F8F1D00705010 /* Info.plist */,
+			);
+			path = SellSnapTests;
+			sourceTree = "<group>";
+		};
+		9FB032DD1F3F8F1D00705010 /* SellSnapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FB032DE1F3F8F1D00705010 /* SellSnapUITests.swift */,
+				9FB032E01F3F8F1D00705010 /* Info.plist */,
+			);
+			path = SellSnapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FB032B71F3F8F1D00705010 /* SellSnap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FB032E31F3F8F1D00705010 /* Build configuration list for PBXNativeTarget "SellSnap" */;
+			buildPhases = (
+				9FB032B41F3F8F1D00705010 /* Sources */,
+				9FB032B51F3F8F1D00705010 /* Frameworks */,
+				9FB032B61F3F8F1D00705010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SellSnap;
+			productName = SellSnap;
+			productReference = 9FB032B81F3F8F1D00705010 /* SellSnap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FB032CE1F3F8F1D00705010 /* SellSnapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FB032E61F3F8F1D00705010 /* Build configuration list for PBXNativeTarget "SellSnapTests" */;
+			buildPhases = (
+				9FB032CB1F3F8F1D00705010 /* Sources */,
+				9FB032CC1F3F8F1D00705010 /* Frameworks */,
+				9FB032CD1F3F8F1D00705010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FB032D11F3F8F1D00705010 /* PBXTargetDependency */,
+			);
+			name = SellSnapTests;
+			productName = SellSnapTests;
+			productReference = 9FB032CF1F3F8F1D00705010 /* SellSnapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FB032D91F3F8F1D00705010 /* SellSnapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FB032E91F3F8F1D00705010 /* Build configuration list for PBXNativeTarget "SellSnapUITests" */;
+			buildPhases = (
+				9FB032D61F3F8F1D00705010 /* Sources */,
+				9FB032D71F3F8F1D00705010 /* Frameworks */,
+				9FB032D81F3F8F1D00705010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FB032DC1F3F8F1D00705010 /* PBXTargetDependency */,
+			);
+			name = SellSnapUITests;
+			productName = SellSnapUITests;
+			productReference = 9FB032DA1F3F8F1D00705010 /* SellSnapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FB032B01F3F8F1D00705010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Gurkan Yilmaz";
+				TargetAttributes = {
+					9FB032B71F3F8F1D00705010 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JP8T8ZDVB3;
+						ProvisioningStyle = Automatic;
+					};
+					9FB032CE1F3F8F1D00705010 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JP8T8ZDVB3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FB032B71F3F8F1D00705010;
+					};
+					9FB032D91F3F8F1D00705010 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JP8T8ZDVB3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FB032B71F3F8F1D00705010;
+					};
+				};
+			};
+			buildConfigurationList = 9FB032B31F3F8F1D00705010 /* Build configuration list for PBXProject "SellSnap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FB032AF1F3F8F1D00705010;
+			productRefGroup = 9FB032B91F3F8F1D00705010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FB032B71F3F8F1D00705010 /* SellSnap */,
+				9FB032CE1F3F8F1D00705010 /* SellSnapTests */,
+				9FB032D91F3F8F1D00705010 /* SellSnapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FB032B61F3F8F1D00705010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB032C91F3F8F1D00705010 /* LaunchScreen.storyboard in Resources */,
+				9FB032C61F3F8F1D00705010 /* Assets.xcassets in Resources */,
+				9FB032C11F3F8F1D00705010 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB032CD1F3F8F1D00705010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB032D81F3F8F1D00705010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FB032B41F3F8F1D00705010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB032BE1F3F8F1D00705010 /* ViewController.swift in Sources */,
+				9FB032C41F3F8F1D00705010 /* SellSnap.xcdatamodeld in Sources */,
+				9FB032BC1F3F8F1D00705010 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB032CB1F3F8F1D00705010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB032D41F3F8F1D00705010 /* SellSnapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB032D61F3F8F1D00705010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB032DF1F3F8F1D00705010 /* SellSnapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FB032D11F3F8F1D00705010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FB032B71F3F8F1D00705010 /* SellSnap */;
+			targetProxy = 9FB032D01F3F8F1D00705010 /* PBXContainerItemProxy */;
+		};
+		9FB032DC1F3F8F1D00705010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FB032B71F3F8F1D00705010 /* SellSnap */;
+			targetProxy = 9FB032DB1F3F8F1D00705010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FB032BF1F3F8F1D00705010 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FB032C01F3F8F1D00705010 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FB032C71F3F8F1D00705010 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FB032C81F3F8F1D00705010 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FB032E11F3F8F1D00705010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FB032E21F3F8F1D00705010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FB032E41F3F8F1D00705010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JP8T8ZDVB3;
+				INFOPLIST_FILE = SellSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ems.works.SellSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9FB032E51F3F8F1D00705010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JP8T8ZDVB3;
+				INFOPLIST_FILE = SellSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ems.works.SellSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9FB032E71F3F8F1D00705010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JP8T8ZDVB3;
+				INFOPLIST_FILE = SellSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ems.works.SellSnapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SellSnap.app/SellSnap";
+			};
+			name = Debug;
+		};
+		9FB032E81F3F8F1D00705010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JP8T8ZDVB3;
+				INFOPLIST_FILE = SellSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ems.works.SellSnapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SellSnap.app/SellSnap";
+			};
+			name = Release;
+		};
+		9FB032EA1F3F8F1D00705010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JP8T8ZDVB3;
+				INFOPLIST_FILE = SellSnapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ems.works.SellSnapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SellSnap;
+			};
+			name = Debug;
+		};
+		9FB032EB1F3F8F1D00705010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JP8T8ZDVB3;
+				INFOPLIST_FILE = SellSnapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ems.works.SellSnapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SellSnap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FB032B31F3F8F1D00705010 /* Build configuration list for PBXProject "SellSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB032E11F3F8F1D00705010 /* Debug */,
+				9FB032E21F3F8F1D00705010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FB032E31F3F8F1D00705010 /* Build configuration list for PBXNativeTarget "SellSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB032E41F3F8F1D00705010 /* Debug */,
+				9FB032E51F3F8F1D00705010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FB032E61F3F8F1D00705010 /* Build configuration list for PBXNativeTarget "SellSnapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB032E71F3F8F1D00705010 /* Debug */,
+				9FB032E81F3F8F1D00705010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FB032E91F3F8F1D00705010 /* Build configuration list for PBXNativeTarget "SellSnapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB032EA1F3F8F1D00705010 /* Debug */,
+				9FB032EB1F3F8F1D00705010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9FB032C21F3F8F1D00705010 /* SellSnap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9FB032C31F3F8F1D00705010 /* SellSnap.xcdatamodel */,
+			);
+			currentVersion = 9FB032C31F3F8F1D00705010 /* SellSnap.xcdatamodel */;
+			path = SellSnap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9FB032B01F3F8F1D00705010 /* Project object */;
+}
