@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location Access?</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Location Access?</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Galano Grotesque Alt Semi Bold.otf</string>
+		<string>Galano Grotesque Bold.otf</string>
+		<string>Galano Grotesque Extra Bold.otf</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

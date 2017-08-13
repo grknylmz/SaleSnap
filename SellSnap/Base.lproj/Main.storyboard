@@ -1,14 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Galano Grotesque Bold.otf">
+            <string>GalanoGrotesque-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginVC" customModule="SellSnap" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +25,171 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MUo-Vk-moP" customClass="BackgroundVideo" customModule="SwiftVideoBackground">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SALESNAP" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPb-QK-wb4">
+                                        <rect key="frame" x="136" y="53" width="191" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="191" id="B1m-cC-zfJ"/>
+                                            <constraint firstAttribute="height" constant="43" id="rtp-oE-5Xa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="GalanoGrotesque-Bold" family="GalanoGrotesque-Bold" pointSize="34"/>
+                                        <color key="textColor" red="0.29656940698623657" green="0.79584962129592896" blue="0.64064943790435791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9q-S8-AtQ">
+                                        <rect key="frame" x="40" y="430" width="294" height="88"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="88" id="126-y8-40h"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Buy Stuff and Enjoy!">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="QHX-EU-Jrb" appends="YES" id="YSP-dg-yoM"/>
+                                        </connections>
+                                    </label>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Cls-mG-Bvg">
+                                        <rect key="frame" x="168" y="516" width="39" height="37"/>
+                                        <color key="pageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="currentPageIndicatorTintColor" red="0.29656940700000001" green="0.79584962130000003" blue="0.64064943789999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </pageControl>
+                                    <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ywX-40-USt">
+                                        <rect key="frame" x="77" y="561" width="221" height="30"/>
+                                        <color key="backgroundColor" red="0.21694576739999999" green="0.34690785410000002" blue="0.60007959600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Connect with Facebook">
+                                            <color key="titleShadowColor" red="0.21694576740264893" green="0.3469078540802002" blue="0.60007959604263306" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="7nK-rA-fup" kind="show" id="WQm-X9-tKb"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fill3" translatesAutoresizingMaskIntoConstraints="NO" id="hMw-DO-Dpu" userLabel="FacebookIcon">
+                                        <rect key="frame" x="86" y="569" width="19" height="16"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfw-t3-XeR">
+                                        <rect key="frame" x="77" y="599" width="221" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Connect with Google">
+                                            <color key="titleColor" red="0.21694576739999999" green="0.34690785410000002" blue="0.60007959600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.21694576739999999" green="0.34690785410000002" blue="0.60007959600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="google_logo1600" translatesAutoresizingMaskIntoConstraints="NO" id="gOC-v7-qyP" userLabel="GoogleIcon">
+                                        <rect key="frame" x="91" y="605" width="19" height="19"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ijn-92-eTg">
+                                        <rect key="frame" x="54" y="629" width="266" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                                        <state key="normal" title="Already a member ? Login here.">
+                                            <color key="titleColor" red="0.29656940698623657" green="0.79584962129592896" blue="0.64064943790435791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Cls-mG-Bvg" secondAttribute="trailing" constant="168" id="24J-H1-tgi"/>
+                                    <constraint firstAttribute="bottom" secondItem="Cls-mG-Bvg" secondAttribute="bottom" constant="114" id="AFd-cB-tdU"/>
+                                    <constraint firstItem="I9q-S8-AtQ" firstAttribute="centerX" secondItem="MUo-Vk-moP" secondAttribute="centerX" id="B8a-ud-4Eu"/>
+                                    <constraint firstItem="ywX-40-USt" firstAttribute="top" secondItem="Cls-mG-Bvg" secondAttribute="bottom" constant="8" symbolic="YES" id="HrT-V2-uPX"/>
+                                    <constraint firstItem="ywX-40-USt" firstAttribute="centerX" secondItem="Cls-mG-Bvg" secondAttribute="centerX" id="Jm2-r3-H53"/>
+                                    <constraint firstAttribute="trailing" secondItem="LPb-QK-wb4" secondAttribute="trailing" constant="48" id="aBH-TA-jbz"/>
+                                    <constraint firstItem="LPb-QK-wb4" firstAttribute="top" secondItem="MUo-Vk-moP" secondAttribute="top" constant="53" id="bWm-h5-dS0"/>
+                                    <constraint firstAttribute="bottom" secondItem="I9q-S8-AtQ" secondAttribute="bottom" constant="149" id="gHm-Wd-Oos"/>
+                                    <constraint firstItem="Cls-mG-Bvg" firstAttribute="leading" secondItem="MUo-Vk-moP" secondAttribute="leading" constant="168" id="hp1-dy-gKQ"/>
+                                    <constraint firstItem="ywX-40-USt" firstAttribute="leading" secondItem="MUo-Vk-moP" secondAttribute="leading" constant="77" id="ia4-7N-SKK"/>
+                                    <constraint firstItem="I9q-S8-AtQ" firstAttribute="leading" secondItem="MUo-Vk-moP" secondAttribute="leading" constant="40" id="qSi-Hf-EbZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="ywX-40-USt" secondAttribute="trailing" constant="77" id="xtm-SP-CM5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="MUo-Vk-moP" secondAttribute="trailing" id="DZt-JH-kte"/>
+                            <constraint firstItem="MUo-Vk-moP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="L03-PK-K3b"/>
+                            <constraint firstItem="MUo-Vk-moP" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="g8t-Zf-OYE"/>
+                            <constraint firstItem="MUo-Vk-moP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="guI-KY-WZK"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundVideo" destination="MUo-Vk-moP" id="eoU-B0-omS"/>
+                        <outlet property="briefLabel" destination="I9q-S8-AtQ" id="7Gg-Ri-lzi"/>
+                        <outlet property="facebookButton" destination="ywX-40-USt" id="G1z-kG-afS"/>
+                        <outlet property="googleButton" destination="gfw-t3-XeR" id="giE-13-g5w"/>
+                        <outlet property="pageControl" destination="Cls-mG-Bvg" id="cCq-3v-xRn"/>
+                        <outlet property="uiGesture" destination="QHX-EU-Jrb" id="Fx8-g5-uLd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="QHX-EU-Jrb"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+        <!--MapVC-->
+        <scene sceneID="xCL-hK-n97">
+            <objects>
+                <viewController id="7nK-rA-fup" customClass="MapVC" customModule="SellSnap" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="thP-3R-9uL"/>
+                        <viewControllerLayoutGuide type="bottom" id="RDY-JY-YEs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uvk-Z1-kW1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="bsD-y3-OBN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sv-XM-XJ4">
+                                <rect key="frame" x="23" y="19" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="cancel"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="6KL-uz-dsR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Deb-lT-sAN">
+                                <rect key="frame" x="320" y="19" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="ok_blue"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bsD-y3-OBN" firstAttribute="bottom" secondItem="RDY-JY-YEs" secondAttribute="top" id="2Hq-Br-6lG"/>
+                            <constraint firstItem="bsD-y3-OBN" firstAttribute="leading" secondItem="Uvk-Z1-kW1" secondAttribute="leading" id="3Mk-UR-Oqa"/>
+                            <constraint firstItem="bsD-y3-OBN" firstAttribute="top" secondItem="Uvk-Z1-kW1" secondAttribute="top" id="cmx-qq-CQf"/>
+                            <constraint firstAttribute="trailing" secondItem="bsD-y3-OBN" secondAttribute="trailing" id="fKv-Eo-jlU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapObject" destination="bsD-y3-OBN" id="wdN-h7-y0J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y6q-8X-4Qh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1037.5999999999999" y="142.57871064467767"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cancel" width="32" height="32"/>
+        <image name="fill3" width="14" height="30"/>
+        <image name="google_logo1600" width="1600" height="1600"/>
+        <image name="ok_blue" width="32" height="32"/>
+    </resources>
 </document>
