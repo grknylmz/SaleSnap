@@ -11,6 +11,7 @@
 		9F233AAE1F3F9BF700545C86 /* B.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF6D93F1F3F985A0011712D /* B.mp4 */; };
 		9F591B571F405A4700F02C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F591B561F405A4700F02C5C /* Assets.xcassets */; };
 		9F69CD541F4020AB00852EE7 /* Galano in Resources */ = {isa = PBXBuildFile; fileRef = 9F69CD531F4020AB00852EE7 /* Galano */; };
+		9F9955711F41BFB600B1F6E1 /* CardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9955701F41BFB600B1F6E1 /* CardVC.swift */; };
 		9FB032BC1F3F8F1D00705010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB032BB1F3F8F1D00705010 /* AppDelegate.swift */; };
 		9FB032BE1F3F8F1D00705010 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB032BD1F3F8F1D00705010 /* LoginVC.swift */; };
 		9FB032C11F3F8F1D00705010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB032BF1F3F8F1D00705010 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 		913A2D866FE09F29F3E9104F /* Pods-SellSnapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellSnapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SellSnapTests/Pods-SellSnapTests.release.xcconfig"; sourceTree = "<group>"; };
 		9F591B561F405A4700F02C5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F69CD531F4020AB00852EE7 /* Galano */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Galano; sourceTree = "<group>"; };
+		9F9955701F41BFB600B1F6E1 /* CardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardVC.swift; sourceTree = "<group>"; };
 		9FB032B81F3F8F1D00705010 /* SellSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SellSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB032BB1F3F8F1D00705010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FB032BD1F3F8F1D00705010 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 			children = (
 				9FB032BD1F3F8F1D00705010 /* LoginVC.swift */,
 				9FD747841F40305A0088C45B /* MapVC.swift */,
+				9F9955701F41BFB600B1F6E1 /* CardVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -507,6 +510,7 @@
 				9FD747851F40305A0088C45B /* MapVC.swift in Sources */,
 				9FB032C41F3F8F1D00705010 /* SellSnap.xcdatamodeld in Sources */,
 				9FB032BC1F3F8F1D00705010 /* AppDelegate.swift in Sources */,
+				9F9955711F41BFB600B1F6E1 /* CardVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

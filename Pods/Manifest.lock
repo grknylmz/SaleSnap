@@ -1,23 +1,20 @@
 PODS:
+  - DMSwipeCards (1.0.3)
   - ImageSlideshow (1.3.2):
     - ImageSlideshow/Core (= 1.3.2)
   - ImageSlideshow/Core (1.3.2)
-  - Koloda (4.1):
-    - pop (~> 1.0)
-  - pop (1.0.10)
   - SwiftVideoBackground (0.06)
 
 DEPENDENCIES:
+  - DMSwipeCards
   - ImageSlideshow (~> 1.3)
-  - Koloda (~> 4.0)
   - SwiftVideoBackground
 
 SPEC CHECKSUMS:
+  DMSwipeCards: 0f2488120c13eb73366f01e87d1423495cde8ed4
   ImageSlideshow: a68a76fc618ebd2b7481ce355ad67d7097203976
-  Koloda: 6c4fa3ce9a68776a8ef973311e53fdda432799a8
-  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
   SwiftVideoBackground: 9099e41be1afad9f726cfc2014accb3330ad7ec1
 
-PODFILE CHECKSUM: f7cc5331cd2029a8600ef903dfe6548519dae628
+PODFILE CHECKSUM: d58cfe46f9c4a8fcc2007b12f1b01fcd6b173968
 
 COCOAPODS: 1.1.1

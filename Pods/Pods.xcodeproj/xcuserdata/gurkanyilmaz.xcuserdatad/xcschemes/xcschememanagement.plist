@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DMSwipeCards.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ImageSlideshow-ImageSlideshow.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>ImageSlideshow.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Koloda.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -39,20 +39,10 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>pop.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>20151774CE2F5FA6B8126D4F5ED1C5FE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3AB07DC93F393FA4258351D45A152D40</key>
+		<key>6FFF62EE30267DCD12ED16A4A5DF4EE3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,17 +57,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9BDD0E42347ED8EDEA19928B85B79254</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A34D25F890F8136A703D8BD494CB3E9B</key>
+		<key>F785E054FE056D06A41D5F398433EDB5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>F78C1CFB1095A35CB73CA669ECFFCE66</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA0071A399690B9A95DB23C23FC8F072</key>
 		<dict>
 			<key>primary</key>
 			<true/>
