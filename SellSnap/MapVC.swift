@@ -80,7 +80,7 @@ class MapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
             
             guard let response = response else {
                 if let error = error {
-                    print("Error: \(error)")
+                    print("Error on Location: \(error)")
                 }
                 
                 return
