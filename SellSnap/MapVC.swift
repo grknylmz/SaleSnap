@@ -10,53 +10,101 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class MapVC: UIViewController {
+class MapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
 
-    @IBOutlet var mapObject: MKMapView!
-    let regionRadius: CLLocationDistance = 1000
+    @IBOutlet var map: MKMapView!
     var locationManager: CLLocationManager!
+            let kanyonAnnotation = MKPointAnnotation()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        mapObject.showsUserLocation = true
-        mapObject.delegate = self as? MKMapViewDelegate
-        if (CLLocationManager.locationServicesEnabled())
-        {
-            locationManager = CLLocationManager()
-            locationManager.delegate = self as? CLLocationManagerDelegate
-            locationManager.desiredAccuracy = kCLLocationAccuracyBest
-            locationManager.requestAlwaysAuthorization()
-            locationManager.startUpdatingLocation()
-        }
+        map.delegate = self
+        locationManager = CLLocationManager()
+        locationManager.delegate = self
+        prepareLocationManager(map: map, locationManager: locationManager)
+        createMarker()
 
     }
+    
+    func prepareLocationManager(map : MKMapView , locationManager : CLLocationManager){
+        if CLLocationManager.authorizationStatus() == .notDetermined {
+            locationManager.requestWhenInUseAuthorization()
+        }
+        else {
+            if CLLocationManager.locationServicesEnabled() {
+                locationManager.requestAlwaysAuthorization()
+                locationManager.requestWhenInUseAuthorization()
+                locationManager.desiredAccuracy = kCLLocationAccuracyBest
+                locationManager.startUpdatingLocation()
+                map.showsUserLocation = true
+                map.userTrackingMode = .follow
+            }
+        }
+    
+    }
+    
+    //Dummy Kanyon AVM Magaza
+    func createMarker(){
+
+        kanyonAnnotation.title = "Kanyon Magaza"
+        kanyonAnnotation.coordinate = CLLocationCoordinate2D(latitude: 41.0782550, longitude: 29.0116350)
+        map.addAnnotation(kanyonAnnotation)
+        map.selectAnnotation(map.annotations[0], animated: false)
+        
+    }
+    
+    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+        getDirections()
+    }
+    
+    func getDirections(){
+        
+        let destLocation = kanyonAnnotation.coordinate
+        let currentLocation = locationManager.location?.coordinate
+        
+        let sourcePlacemark = MKPlacemark(coordinate: currentLocation!, addressDictionary: nil)
+        let destinationPlacemark = MKPlacemark(coordinate: destLocation, addressDictionary: nil)
+        
+        let sourceMapItem = MKMapItem(placemark: sourcePlacemark)
+        let destinationMapItem = MKMapItem(placemark: destinationPlacemark)
+        
+        let directionRequest = MKDirectionsRequest()
+        directionRequest.source = sourceMapItem
+        directionRequest.destination = destinationMapItem
+        directionRequest.transportType = .walking
+        
+        let directions = MKDirections(request: directionRequest)
+
+        directions.calculate {
+            (response, error) -> Void in
+            
+            guard let response = response else {
+                if let error = error {
+                    print("Error: \(error)")
+                }
+                
+                return
+            }
+            
+            let route = response.routes[0]
+            self.map.add((route.polyline), level: MKOverlayLevel.aboveRoads)
+            
+            let rect = route.polyline.boundingMapRect
+            self.map.setRegion(MKCoordinateRegionForMapRect(rect), animated: true)
+        }
+    
+    }
+    
+    func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
+        let renderer = MKPolylineRenderer(overlay: overlay)
+        renderer.strokeColor = UIColor.red
+        renderer.lineWidth = 4.0
+        
+        return renderer
+    }
+    
     override var prefersStatusBarHidden : Bool {
         return true
     }
-    func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
-        let location = locations.last as! CLLocation
-        manager.requestAlwaysAuthorization()
-        
-        let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
-        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
-        
-        self.mapObject.setRegion(region, animated: true)
-    }
-
-    func centerMapOnLocation(location: CLLocation) {
-        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
-                                                                  regionRadius * 2.0, regionRadius * 2.0)
-        mapObject.setRegion(coordinateRegion, animated: true)
-    }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
 }

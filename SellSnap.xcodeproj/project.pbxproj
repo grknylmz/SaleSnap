@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		72BA252EEB8DA78F2E123977 /* Pods_SellSnapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B26D915C91B994B87DAA79 /* Pods_SellSnapUITests.framework */; };
 		9F233AAE1F3F9BF700545C86 /* B.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF6D93F1F3F985A0011712D /* B.mp4 */; };
+		9F591B571F405A4700F02C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F591B561F405A4700F02C5C /* Assets.xcassets */; };
 		9F69CD541F4020AB00852EE7 /* Galano in Resources */ = {isa = PBXBuildFile; fileRef = 9F69CD531F4020AB00852EE7 /* Galano */; };
 		9FB032BC1F3F8F1D00705010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB032BB1F3F8F1D00705010 /* AppDelegate.swift */; };
 		9FB032BE1F3F8F1D00705010 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB032BD1F3F8F1D00705010 /* LoginVC.swift */; };
 		9FB032C11F3F8F1D00705010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB032BF1F3F8F1D00705010 /* Main.storyboard */; };
 		9FB032C41F3F8F1D00705010 /* SellSnap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FB032C21F3F8F1D00705010 /* SellSnap.xcdatamodeld */; };
-		9FB032C61F3F8F1D00705010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB032C51F3F8F1D00705010 /* Assets.xcassets */; };
 		9FB032C91F3F8F1D00705010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB032C71F3F8F1D00705010 /* LaunchScreen.storyboard */; };
 		9FB032D41F3F8F1D00705010 /* SellSnapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB032D31F3F8F1D00705010 /* SellSnapTests.swift */; };
 		9FB032DF1F3F8F1D00705010 /* SellSnapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB032DE1F3F8F1D00705010 /* SellSnapUITests.swift */; };
@@ -46,13 +46,13 @@
 		1ED3A9FCBDADEDA9CA4DA2CA /* Pods_SellSnapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SellSnapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6526ACDAAA3D8147EF42CAB6 /* Pods-SellSnap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellSnap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SellSnap/Pods-SellSnap.debug.xcconfig"; sourceTree = "<group>"; };
 		913A2D866FE09F29F3E9104F /* Pods-SellSnapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellSnapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SellSnapTests/Pods-SellSnapTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F591B561F405A4700F02C5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F69CD531F4020AB00852EE7 /* Galano */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Galano; sourceTree = "<group>"; };
 		9FB032B81F3F8F1D00705010 /* SellSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SellSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB032BB1F3F8F1D00705010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FB032BD1F3F8F1D00705010 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		9FB032C01F3F8F1D00705010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FB032C31F3F8F1D00705010 /* SellSnap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SellSnap.xcdatamodel; sourceTree = "<group>"; };
-		9FB032C51F3F8F1D00705010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FB032C81F3F8F1D00705010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FB032CA1F3F8F1D00705010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FB032CF1F3F8F1D00705010 /* SellSnapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SellSnapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +132,7 @@
 		9FB032BA1F3F8F1D00705010 /* SellSnap */ = {
 			isa = PBXGroup;
 			children = (
+				9F591B561F405A4700F02C5C /* Assets.xcassets */,
 				9F69CD531F4020AB00852EE7 /* Galano */,
 				9FF6D93F1F3F985A0011712D /* B.mp4 */,
 				9FF6D93E1F3F97470011712D /* Helpers */,
@@ -141,7 +142,6 @@
 				9FF6D93A1F3F972B0011712D /* Models */,
 				9FB032BB1F3F8F1D00705010 /* AppDelegate.swift */,
 				9FB032BF1F3F8F1D00705010 /* Main.storyboard */,
-				9FB032C51F3F8F1D00705010 /* Assets.xcassets */,
 				9FB032C71F3F8F1D00705010 /* LaunchScreen.storyboard */,
 				9FB032CA1F3F8F1D00705010 /* Info.plist */,
 				9FB032C21F3F8F1D00705010 /* SellSnap.xcdatamodeld */,
@@ -339,8 +339,8 @@
 				9F69CD541F4020AB00852EE7 /* Galano in Resources */,
 				9F233AAE1F3F9BF700545C86 /* B.mp4 in Resources */,
 				9FB032C91F3F8F1D00705010 /* LaunchScreen.storyboard in Resources */,
-				9FB032C61F3F8F1D00705010 /* Assets.xcassets in Resources */,
 				9FB032C11F3F8F1D00705010 /* Main.storyboard in Resources */,
+				9F591B571F405A4700F02C5C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

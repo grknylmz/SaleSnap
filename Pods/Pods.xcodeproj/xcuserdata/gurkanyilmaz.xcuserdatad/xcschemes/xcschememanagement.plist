@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ImageSlideshow-ImageSlideshow.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ImageSlideshow.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Koloda.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,7 +52,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>279F1648DFF13D5AAE1837874A43EEF0</key>
+		<key>3AB07DC93F393FA4258351D45A152D40</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +72,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CD1CED6F6B303AB6585828455320D611</key>
+		<key>A34D25F890F8136A703D8BD494CB3E9B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F78C1CFB1095A35CB73CA669ECFFCE66</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF9DAEB157082D537A10095B51E9F5EA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
