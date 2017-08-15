@@ -9,16 +9,26 @@
 import UIKit
 
 class MenuTableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet var prodImage: UIImageView!
+    @IBOutlet var productName: UILabel!
+    @IBOutlet var productDesc: UILabel!
+    @IBOutlet var priceTag: UILabel!
+    @IBOutlet var locName: UILabel!
+    @IBOutlet var locIcon: UIButton!
+    
+    
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        self.prodImage = UIImageView()
+        self.productName = UILabel()
+        self.productDesc = UILabel()
+        self.priceTag = UILabel()
+        self.locName = UILabel()
+        self.locIcon = UIButton()
+    
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
     }
-
 }

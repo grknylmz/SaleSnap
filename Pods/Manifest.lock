@@ -2,22 +2,16 @@ PODS:
   - ImageSlideshow (1.3.2):
     - ImageSlideshow/Core (= 1.3.2)
   - ImageSlideshow/Core (1.3.2)
-  - Koloda (4.1):
-    - pop (~> 1.0)
-  - pop (1.0.10)
   - SwiftVideoBackground (0.06)
 
 DEPENDENCIES:
   - ImageSlideshow (~> 1.3)
-  - Koloda (~> 4.0)
   - SwiftVideoBackground
 
 SPEC CHECKSUMS:
   ImageSlideshow: a68a76fc618ebd2b7481ce355ad67d7097203976
-  Koloda: 6c4fa3ce9a68776a8ef973311e53fdda432799a8
-  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
   SwiftVideoBackground: 9099e41be1afad9f726cfc2014accb3330ad7ec1
 
-PODFILE CHECKSUM: ac6dbe07b35ee669935e0c9ead95cd62a8fdea7a
+PODFILE CHECKSUM: 2f8fb1d9110c49008043accfc8669b891680b06b
 
 COCOAPODS: 1.1.1

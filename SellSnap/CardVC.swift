@@ -8,17 +8,38 @@
 
 import UIKit
 
-
-class CardVC: UIViewController {
+class CardVC: UITableViewController {
+    var products : [Product] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.modalTransitionStyle = UIModalTransitionStyle.flipHorizontal
         
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    
     }
     
     override var prefersStatusBarHidden : Bool {
         return true
     }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5 // products.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MenuTableViewCell",
+                                                 for: indexPath) as! MenuTableViewCell
+        
+        cell.locName.text = "Kanyon AVM"
+        cell.priceTag.text = "65 ₺"
+        cell.prodImage.image = UIImage(named: "yourLossBabe")
+        cell.productDesc.text = "Your Loss T-Shirt"
+        cell.productName.text = "Armani Jeans"
+
+        
+        return cell
+    }
 
 }
-

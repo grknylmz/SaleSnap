@@ -8,8 +8,6 @@ target 'SellSnap' do
   # Pods for SellSnap
   pod 'SwiftVideoBackground'
   pod 'ImageSlideshow', '~> 1.3'
-  pod 'Koloda', '~> 4.0'
-
 
   target 'SellSnapTests' do
     inherit! :search_paths
