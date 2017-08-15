@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DMSwipeCards.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>ImageSlideshow-ImageSlideshow.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,7 +37,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6FFF62EE30267DCD12ED16A4A5DF4EE3</key>
+		<key>59F0ABE63DFA5D53A52CB4EBA4AE2174</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,17 +52,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F785E054FE056D06A41D5F398433EDB5</key>
+		<key>CD38546F5F07B6467DDA71124D77C275</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>F78C1CFB1095A35CB73CA669ECFFCE66</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA0071A399690B9A95DB23C23FC8F072</key>
 		<dict>
 			<key>primary</key>
 			<true/>

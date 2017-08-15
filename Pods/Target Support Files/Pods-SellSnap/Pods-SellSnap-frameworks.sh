@@ -84,12 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/DMSwipeCards/DMSwipeCards.framework"
   install_framework "$BUILT_PRODUCTS_DIR/ImageSlideshow/ImageSlideshow.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftVideoBackground/SwiftVideoBackground.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/DMSwipeCards/DMSwipeCards.framework"
   install_framework "$BUILT_PRODUCTS_DIR/ImageSlideshow/ImageSlideshow.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftVideoBackground/SwiftVideoBackground.framework"
 fi
