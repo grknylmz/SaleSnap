@@ -14,7 +14,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>KSSwipeStack.xcscheme</key>
+		<key>Koloda.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -34,18 +34,59 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>RxSwift.xcscheme</key>
+		<key>SwiftVideoBackground.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SwiftVideoBackground.xcscheme</key>
+		<key>pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>20151774CE2F5FA6B8126D4F5ED1C5FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3AB07DC93F393FA4258351D45A152D40</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>770E903AE9A5818FFCD045E6DA9F4FD6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8730C02D2F6006C3FBDE0B35C356E8C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9BDD0E42347ED8EDEA19928B85B79254</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A34D25F890F8136A703D8BD494CB3E9B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F78C1CFB1095A35CB73CA669ECFFCE66</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF9DAEB157082D537A10095B51E9F5EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

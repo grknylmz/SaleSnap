@@ -2,22 +2,22 @@ PODS:
   - ImageSlideshow (1.3.2):
     - ImageSlideshow/Core (= 1.3.2)
   - ImageSlideshow/Core (1.3.2)
-  - KSSwipeStack (0.1.0):
-    - RxSwift
-  - RxSwift (3.6.1)
+  - Koloda (4.1):
+    - pop (~> 1.0)
+  - pop (1.0.10)
   - SwiftVideoBackground (0.06)
 
 DEPENDENCIES:
   - ImageSlideshow (~> 1.3)
-  - KSSwipeStack
+  - Koloda (~> 4.0)
   - SwiftVideoBackground
 
 SPEC CHECKSUMS:
   ImageSlideshow: a68a76fc618ebd2b7481ce355ad67d7097203976
-  KSSwipeStack: f78e14a1e5b228a27de270988b3d0529d0a69ffc
-  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  Koloda: 6c4fa3ce9a68776a8ef973311e53fdda432799a8
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
   SwiftVideoBackground: 9099e41be1afad9f726cfc2014accb3330ad7ec1
 
-PODFILE CHECKSUM: 38ccbc35a736f8ccbb69a9bba742f2cfd372f9f6
+PODFILE CHECKSUM: ac6dbe07b35ee669935e0c9ead95cd62a8fdea7a
 
 COCOAPODS: 1.1.1

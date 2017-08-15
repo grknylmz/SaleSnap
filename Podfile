@@ -8,7 +8,7 @@ target 'SellSnap' do
   # Pods for SellSnap
   pod 'SwiftVideoBackground'
   pod 'ImageSlideshow', '~> 1.3'
-  pod "KSSwipeStack"
+  pod 'Koloda', '~> 4.0'
 
 
   target 'SellSnapTests' do

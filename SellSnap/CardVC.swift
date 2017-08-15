@@ -8,15 +8,13 @@
 
 import UIKit
 
+
 class CardVC: UIViewController {
-        
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.modalTransitionStyle = UIModalTransitionStyle.flipHorizontal 
+        self.modalTransitionStyle = UIModalTransitionStyle.flipHorizontal
         
     }
-    
-
     
     override var prefersStatusBarHidden : Bool {
         return true

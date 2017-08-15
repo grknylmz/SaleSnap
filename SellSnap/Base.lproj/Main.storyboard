@@ -158,6 +158,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="swipeView" destination="ueS-C9-eB6" id="8iN-xm-Jq0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PYf-Rf-qrQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
