@@ -8,6 +8,8 @@ target 'SellSnap' do
   # Pods for SellSnap
   pod 'SwiftVideoBackground'
   pod 'ImageSlideshow', '~> 1.3'
+  pod "KSSwipeStack"
+
 
   target 'SellSnapTests' do
     inherit! :search_paths
