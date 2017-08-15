@@ -20,6 +20,7 @@
 		9FB032DF1F3F8F1D00705010 /* SellSnapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB032DE1F3F8F1D00705010 /* SellSnapUITests.swift */; };
 		9FCB7E581F4309A80018EF23 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB7E571F4309A80018EF23 /* Product.swift */; };
 		9FCB7E5C1F430E8D0018EF23 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB7E5B1F430E8D0018EF23 /* MenuTableViewCell.swift */; };
+		9FCB7E601F432F6A0018EF23 /* ProductDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB7E5F1F432F6A0018EF23 /* ProductDetailsVC.swift */; };
 		9FD747851F40305A0088C45B /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD747841F40305A0088C45B /* MapVC.swift */; };
 		E410E823750942B3BC9C824C /* Pods_SellSnapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED3A9FCBDADEDA9CA4DA2CA /* Pods_SellSnapTests.framework */; };
 		F44F31CE6441CBFF96F35E20 /* Pods_SellSnap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC71EB9125F016CE9406081 /* Pods_SellSnap.framework */; };
@@ -65,6 +66,7 @@
 		9FB032E01F3F8F1D00705010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FCB7E571F4309A80018EF23 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		9FCB7E5B1F430E8D0018EF23 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		9FCB7E5F1F432F6A0018EF23 /* ProductDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductDetailsVC.swift; path = Assets.xcassets/ProductDetailsVC.swift; sourceTree = "<group>"; };
 		9FD747841F40305A0088C45B /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		9FF6D93F1F3F985A0011712D /* B.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = B.mp4; sourceTree = "<group>"; };
 		A6B26D915C91B994B87DAA79 /* Pods_SellSnapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SellSnapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,6 +195,7 @@
 				9FB032BD1F3F8F1D00705010 /* LoginVC.swift */,
 				9FD747841F40305A0088C45B /* MapVC.swift */,
 				9F9955701F41BFB600B1F6E1 /* CardVC.swift */,
+				9FCB7E5F1F432F6A0018EF23 /* ProductDetailsVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -517,6 +520,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FB032BE1F3F8F1D00705010 /* LoginVC.swift in Sources */,
+				9FCB7E601F432F6A0018EF23 /* ProductDetailsVC.swift in Sources */,
 				9FD747851F40305A0088C45B /* MapVC.swift in Sources */,
 				9FCB7E5C1F430E8D0018EF23 /* MenuTableViewCell.swift in Sources */,
 				9FB032C41F3F8F1D00705010 /* SellSnap.xcdatamodeld in Sources */,
